@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Praktikum5</string>
+    <string name="hint_input_prodi">Input Prodi</string>
+    <string name="btn_prodi">BAWA DATA PRODI KE ACTIVITY LAIN</string>
+    <string name="btn_call_browser">PANGGIL ITTELKOM-PWT.AC.ID</string>
+    <string name="btn_call_camera">PANGGIL KAMERA</string>
+    <string name="input_phone_number">Input Nomor Telepon</string>
+    <string name="btn_call_phone">TELEPON</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="fragment_first">Fragment Pertama</string>
+    <string name="input_nama">Masukkan Nama</string>
+    <string name="input_nim">Masukkan Nim</string>
+    <string name="btn_to_second_fragment">BUKA FRAGMENT KEDUA</string>
+    <string name="fragment_second">Ini Halaman Fragment Kedua</string>
+    <string name="btn_kembali_beranda">KEMBALI</string>
+    <string name="btn_fragment">BUKA FRAGMENT</string>
+</resources>
