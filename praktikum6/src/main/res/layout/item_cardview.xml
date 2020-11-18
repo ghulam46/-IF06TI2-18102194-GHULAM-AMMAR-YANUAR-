@@ -35,13 +35,15 @@
             android:textSize="16sp"
             android:textStyle="bold"
             tools:text="mydata_name" />
+
         <TextView
             android:id="@+id/tv_item_detail"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_width="143dp"
+            android:layout_height="97dp"
             android:layout_above="@+id/layout_button"
             android:layout_below="@id/tv_item_name"
             android:layout_marginLeft="16dp"
+            android:layout_marginTop="0dp"
             android:layout_marginRight="16dp"
             android:layout_toEndOf="@id/img_item_photo"
             android:layout_toRightOf="@id/img_item_photo"
@@ -58,6 +60,7 @@
             android:layout_toEndOf="@id/img_item_photo"
             android:layout_toRightOf="@id/img_item_photo"
             android:orientation="horizontal">
+
             <Button
                 android:id="@+id/btn_set_favorite"
                 style="@style/Widget.AppCompat.Button.Colored"

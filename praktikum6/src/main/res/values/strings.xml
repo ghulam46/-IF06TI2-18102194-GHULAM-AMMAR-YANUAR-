@@ -9,6 +9,16 @@
     <string-array name="data_name">
         <item>Wisata Pagubugan</item>
         <item>The Village Purwokerto</item>
+        <item>Baturaden Purwokerto</item>
+        <item>Wisata Telaga Sunyi</item>
+        <item>Baturaden Adventure Forest</item>
+        <item>Wisata Curug Gede</item>
+        <item>Wisata Curug Bayan</item>
+        <item>Desa Wisata Ketengger</item>
+        <item>Alun-alin Purwokerto</item>
+        <item>Wisata Museum BRI</item>
+        <item>Wisata Taman Andhang Pangrenan</item>
+        <item>Wisata Taman Satria</item>
     </string-array>
         <string-array name="data_description">
              <item>Berada di lereng Gunung Slamet, wisata Pagubugan akan membawa Anda merasakan betapa
@@ -25,9 +35,44 @@
             sini: naik perahu mengitari kanal buatan di sekitar taman rekreasi, memberi makan aneka binatang
             (burung, kelinci, sapi, domba), menunggang kuda, foto-foto dengan kostum Belanda, dan masih banyak
             lagi!</item>
+             <item>Baturraden adalah sebuah kecamatan di Kabupaten Banyumas, Provinsi Jawa Tengah, Indonesia.
+                 Kecamatan ini berjarak sekitar 7,5 Km dari Kota Purwokerto ke arah utara. Pusat pemerintahannya
+                 berada di Desa Rempoah. Kecamatan ini terletak di lereng selatan Gunung Slamet dan merupakan kawasan wisata.</item>
+                    <item>Dari namanya, Anda pasti sudah membayangkan kalau tempat wisata ini keadaannya sangat sepi
+                        dan jauh dari keramaian. Tidak salah, obyek wisata Telaga Sunyi memang agak jauh dari keramaian
+                        dan tidak seramai Lokawisata Baturraden. Berjarak sekitar 2.8 KM dari Lokawisata Baturraden / Terminal
+                        ke arah timur dan bisa ditempuh dengan kendaraan mobil/motor sekitar 10-15 menitan.</item>
+            <item>Nah di Purwokerto , ada tempat seperti itu. Namanya Baturraden Adventure Forest. Disana adalah Resor
+                Ecotourism untuk pecinta alam dimana banyak pilihan Outdoor Activities , bisa juga buat tempat Team Building
+                , Camping, juga petualangan Hutan, Lembah dan Sungai.</item>
+            <item>Curug Gede memiliki ketinggian sekitar 50 meteran dengan kolam penampungan dibawahnya sekitar 25 m.  Curug
+                ini berada di kawasan wisata Baturaden di Desa Ketenger.  Di desa ini memiliki 9 buah air terjun, dimana salah
+                satunya adalah Curug Gede ini.</item>
+            <item>Curug Bayan ini merupakan salah satu tempat wisata air yang cukup digemari untuk semua kalangan dan usia.
+                Tempatnya yang dekat dan mudah dijangkau, murah, pilihan kedalaman air juga bisa dipilih sesuai umur dan di pisah relatif aman.
+                Tak salah sih kalo dijadikan salah satu tujuan wisata untuk keluarga. Berjarak sekitar 13 Km dan bisa ditempuh selama
+                30 menit dengan kendaraan santai.</item>
+            <item>Desa Wisata Ketenger Villa Bayan Banyumas – Banyumas yang masih memiliki udara sejuk nan asri ini memang tepat dijadikan
+                tempat tujuan wisata. Alam indah yang ada di lereng Gunung Slamet memang tak perlu diragukan lagi.</item>
+            <item>Selain menjadi pusat kota, bagi masyarakat Purwokerto alun-alun sudah menjadi icon tersendiri bagi kota Purwokerto,
+                dan walaupun sudah ada beberapa tempat rekreasi lainnya alun-alun masih menjadi tempat rekreasi utama masyarakat Purwokerto.</item>
+            <item>Museum Bank Rakyat Indonesia adalah museum yang terletak di kota Purwokerto dan berisi tentang sejarah berdirinya Bank Rakyat Indonesia.</item>
+            <item>Taman Kota Andhang Pangrenan Purwokerto merupakan tempat rekreasi alternatif selain alun-alun Purwokerto. Terletak di
+                Kelurahan Karangklesem Purwokerto Selatan. Diresmikan pada tanggal 13 April 2011 oleh Bupati Banyumas pada saat itu Drs. Mardjoko.</item>
+            <item>Taman satria yang berada di lokasi yang sejuk dan sepi ini mempunyai kesan tersendiri untuk dikunjungi.</item>
         </string-array>
     <string-array name="data_photo">
         <item>https://indonesia.tripcanvas.co/id/wp-content/uploads/sites/2/2019/09/18-1-by-@miftakhulmukhasin-@hengki_pamungkas-740x294.jpg</item>
         <item>https://travelspromo.com/wp-content/uploads/2019/04/The-Village-Baturaden-Purwokerto-Adien-Akhmad.jpg</item>
+        <item>https://anekatempatwisata.com/wp-content/uploads/2018/03/Baturraden.jpg</item>
+        <item>http://www.purwokertoguidance.com/wp-content/uploads/2016/05/Gerbang-Telaga-Sunyi.jpg</item>
+        <item>https://i1.wp.com/ariefpokto.com/wp-content/uploads/2019/07/IMG_9234-1080x720-540x360.jpg?resize=540%2C360</item>
+        <item>https://perpus.jatengprov.go.id/images/Air%20Terjun%20Curug%20Gede.jpg</item>
+        <item>http://www.purwokertoguidance.com/wp-content/uploads/2016/09/Curug-Bayan.jpg</item>
+        <item>http://www.wisatakaka.com/wp-content/uploads/2018/11/Desa-Wisata-Ketenger-Villa-Bayan-Banyumas.jpg</item>
+        <item>https://jejakpiknik.com/wp-content/uploads/2018/05/Alun-Alun-Purwokerto-2.jpg</item>
+        <item>https://tempatwisataunik.com/wp-content/uploads/2019/08/bf697a48-museum-bri-purwokerto.jpg</item>
+        <item>https://upload.wikimedia.org/wikipedia/commons/0/0a/Andhang_pangrenan.jpg</item>
+        <item>https://media.radarbanyumas.co.id/wp-content/uploads/2017/07/BAKAL-DIPAGAR-Untuk-mencegah-terjadinya-mesum-Taman-Satria-Purwokerto-akan-dipagar-keliling-dari-proyek-di-Dinas-Lingkungan-Hidup.-DIMAS-BUDI-LANTORO-MUKTI-PRABOWORADAR-BANYUMAS.jpg</item>
     </string-array>
 </resources>
