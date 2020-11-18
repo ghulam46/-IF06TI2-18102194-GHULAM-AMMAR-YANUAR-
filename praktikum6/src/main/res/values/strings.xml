@@ -2,6 +2,9 @@
     <string name="app_name">Praktikum6</string>
     <string name="name">Nama</string>
     <string name="description">Deskripsi</string>
+    <string name="tampil_list">Tampil List</string>
+    <string name="tampil_grid">Tampil Grid</string>
+    <string name="tampil_card_view">Tampil Card View</string>
 
     <string-array name="data_name">
         <item>Wisata Pagubugan</item>
