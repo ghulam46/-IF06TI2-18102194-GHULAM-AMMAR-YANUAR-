@@ -15,7 +15,7 @@
         <item>Wisata Curug Gede</item>
         <item>Wisata Curug Bayan</item>
         <item>Desa Wisata Ketengger</item>
-        <item>Alun-alin Purwokerto</item>
+        <item>Alun-alun Purwokerto</item>
         <item>Wisata Museum BRI</item>
         <item>Wisata Taman Andhang Pangrenan</item>
         <item>Wisata Taman Satria</item>
@@ -75,6 +75,38 @@
         <item>https://upload.wikimedia.org/wikipedia/commons/0/0a/Andhang_pangrenan.jpg</item>
         <item>https://media.radarbanyumas.co.id/wp-content/uploads/2017/07/BAKAL-DIPAGAR-Untuk-mencegah-terjadinya-mesum-Taman-Satria-Purwokerto-akan-dipagar-keliling-dari-proyek-di-Dinas-Lingkungan-Hidup.-DIMAS-BUDI-LANTORO-MUKTI-PRABOWORADAR-BANYUMAS.jpg</item>
     </string-array>
+
+    <string-array name="data_lat">
+        <item>-7.333797</item>
+        <item>-7.374473</item>
+        <item>-2.44565</item>
+        <item>-7.3382777</item>
+        <item>-7.3060328</item>
+        <item>-7.3070145</item>
+        <item>-7.3070145</item>
+        <item>-7.324685</item>
+        <item>-7.324685</item>
+        <item>-7.3246</item>
+        <item>-7.4243742</item>
+        <item>-7.4243742</item>
+        <item>-7.4243742</item>
+    </string-array>
+    <string-array name="data_lang">
+        <item>109.206959</item>
+        <item>109.240532</item>
+        <item>117.8888</item>
+        <item>109.1905557</item>
+        <item>109.2401843</item>
+        <item>109.2396358</item>
+        <item>109.1652983</item>
+        <item>109.2146875</item>
+        <item>109.2214799</item>
+        <item>109.2280016</item>
+        <item>109.2280016</item>
+        <item>109.2280016</item>
+        <item>109.2280016</item>
+    </string-array>
+
     <string name="title_activity_detail">ScrollingActivity</string>
     <string name="large_text">
         "Material is the metaphor.\n\n"
@@ -166,4 +198,5 @@
         "when a user tries to pick up one of cards.\n\n"
     </string>
     <string name="action_settings">Settings</string>
+    <string name="title_activity_maps">Map</string>
 </resources>
