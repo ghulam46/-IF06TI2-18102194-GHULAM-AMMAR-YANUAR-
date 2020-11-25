@@ -20,7 +20,7 @@
         <item>Wisata Taman Andhang Pangrenan</item>
         <item>Wisata Taman Satria</item>
     </string-array>
-        <string-array name="data_description">
+    <string-array name="data_description">
              <item>Berada di lereng Gunung Slamet, wisata Pagubugan akan membawa Anda merasakan betapa
             tenang dan nyamannya berada di tengah persawahan dan bermain air di sungai. Eduwisata yang berada
             di Desa Melung ini memiliki berbagai spot wisata menarik yang akan memanjakan Anda. Mulai dari trek
@@ -29,38 +29,38 @@
             Selain itu lintasan grujugan ini juga panjang, melewati persawahan dan tidak dalam, sehingga aman buat
             si kecil. Selain itu ada juga wisata bercocok tanam bagi anak paud, TK maupun SD yang berkunjung. Dan
             yang terbaru ada kolam renang di tengah persawahan yang aman untuk anak-anak.</item>
-                    <item>Berlokasi tak terlalu jauh dengan pusat kota Purwokerto, The Village hadir dengan gaya unik
+        <item>Berlokasi tak terlalu jauh dengan pusat kota Purwokerto, The Village hadir dengan gaya unik
             khas perkampungan Eropa. Bangunan tinggi besar menyerupai kastil dengan dinding bata langsung
             mencuri perhatian begitu melangkahkan kaki ke sini. Ada beragam aktivitas yang bisa Anda lakukan di
             sini: naik perahu mengitari kanal buatan di sekitar taman rekreasi, memberi makan aneka binatang
             (burung, kelinci, sapi, domba), menunggang kuda, foto-foto dengan kostum Belanda, dan masih banyak
             lagi!</item>
-             <item>Baturraden adalah sebuah kecamatan di Kabupaten Banyumas, Provinsi Jawa Tengah, Indonesia.
+        <item>Baturraden adalah sebuah kecamatan di Kabupaten Banyumas, Provinsi Jawa Tengah, Indonesia.
                  Kecamatan ini berjarak sekitar 7,5 Km dari Kota Purwokerto ke arah utara. Pusat pemerintahannya
                  berada di Desa Rempoah. Kecamatan ini terletak di lereng selatan Gunung Slamet dan merupakan kawasan wisata.</item>
-                    <item>Dari namanya, Anda pasti sudah membayangkan kalau tempat wisata ini keadaannya sangat sepi
+        <item>Dari namanya, Anda pasti sudah membayangkan kalau tempat wisata ini keadaannya sangat sepi
                         dan jauh dari keramaian. Tidak salah, obyek wisata Telaga Sunyi memang agak jauh dari keramaian
                         dan tidak seramai Lokawisata Baturraden. Berjarak sekitar 2.8 KM dari Lokawisata Baturraden / Terminal
                         ke arah timur dan bisa ditempuh dengan kendaraan mobil/motor sekitar 10-15 menitan.</item>
-            <item>Nah di Purwokerto , ada tempat seperti itu. Namanya Baturraden Adventure Forest. Disana adalah Resor
+        <item>Nah di Purwokerto , ada tempat seperti itu. Namanya Baturraden Adventure Forest. Disana adalah Resor
                 Ecotourism untuk pecinta alam dimana banyak pilihan Outdoor Activities , bisa juga buat tempat Team Building
                 , Camping, juga petualangan Hutan, Lembah dan Sungai.</item>
-            <item>Curug Gede memiliki ketinggian sekitar 50 meteran dengan kolam penampungan dibawahnya sekitar 25 m.  Curug
+        <item>Curug Gede memiliki ketinggian sekitar 50 meteran dengan kolam penampungan dibawahnya sekitar 25 m.  Curug
                 ini berada di kawasan wisata Baturaden di Desa Ketenger.  Di desa ini memiliki 9 buah air terjun, dimana salah
                 satunya adalah Curug Gede ini.</item>
-            <item>Curug Bayan ini merupakan salah satu tempat wisata air yang cukup digemari untuk semua kalangan dan usia.
+        <item>Curug Bayan ini merupakan salah satu tempat wisata air yang cukup digemari untuk semua kalangan dan usia.
                 Tempatnya yang dekat dan mudah dijangkau, murah, pilihan kedalaman air juga bisa dipilih sesuai umur dan di pisah relatif aman.
                 Tak salah sih kalo dijadikan salah satu tujuan wisata untuk keluarga. Berjarak sekitar 13 Km dan bisa ditempuh selama
                 30 menit dengan kendaraan santai.</item>
-            <item>Desa Wisata Ketenger Villa Bayan Banyumas – Banyumas yang masih memiliki udara sejuk nan asri ini memang tepat dijadikan
+        <item>Desa Wisata Ketenger Villa Bayan Banyumas – Banyumas yang masih memiliki udara sejuk nan asri ini memang tepat dijadikan
                 tempat tujuan wisata. Alam indah yang ada di lereng Gunung Slamet memang tak perlu diragukan lagi.</item>
-            <item>Selain menjadi pusat kota, bagi masyarakat Purwokerto alun-alun sudah menjadi icon tersendiri bagi kota Purwokerto,
+        <item>Selain menjadi pusat kota, bagi masyarakat Purwokerto alun-alun sudah menjadi icon tersendiri bagi kota Purwokerto,
                 dan walaupun sudah ada beberapa tempat rekreasi lainnya alun-alun masih menjadi tempat rekreasi utama masyarakat Purwokerto.</item>
-            <item>Museum Bank Rakyat Indonesia adalah museum yang terletak di kota Purwokerto dan berisi tentang sejarah berdirinya Bank Rakyat Indonesia.</item>
-            <item>Taman Kota Andhang Pangrenan Purwokerto merupakan tempat rekreasi alternatif selain alun-alun Purwokerto. Terletak di
+        <item>Museum Bank Rakyat Indonesia adalah museum yang terletak di kota Purwokerto dan berisi tentang sejarah berdirinya Bank Rakyat Indonesia.</item>
+        <item>Taman Kota Andhang Pangrenan Purwokerto merupakan tempat rekreasi alternatif selain alun-alun Purwokerto. Terletak di
                 Kelurahan Karangklesem Purwokerto Selatan. Diresmikan pada tanggal 13 April 2011 oleh Bupati Banyumas pada saat itu Drs. Mardjoko.</item>
-            <item>Taman satria yang berada di lokasi yang sejuk dan sepi ini mempunyai kesan tersendiri untuk dikunjungi.</item>
-        </string-array>
+        <item>Taman satria yang berada di lokasi yang sejuk dan sepi ini mempunyai kesan tersendiri untuk dikunjungi.</item>
+    </string-array>
     <string-array name="data_photo">
         <item>https://indonesia.tripcanvas.co/id/wp-content/uploads/sites/2/2019/09/18-1-by-@miftakhulmukhasin-@hengki_pamungkas-740x294.jpg</item>
         <item>https://travelspromo.com/wp-content/uploads/2019/04/The-Village-Baturaden-Purwokerto-Adien-Akhmad.jpg</item>
@@ -75,4 +75,95 @@
         <item>https://upload.wikimedia.org/wikipedia/commons/0/0a/Andhang_pangrenan.jpg</item>
         <item>https://media.radarbanyumas.co.id/wp-content/uploads/2017/07/BAKAL-DIPAGAR-Untuk-mencegah-terjadinya-mesum-Taman-Satria-Purwokerto-akan-dipagar-keliling-dari-proyek-di-Dinas-Lingkungan-Hidup.-DIMAS-BUDI-LANTORO-MUKTI-PRABOWORADAR-BANYUMAS.jpg</item>
     </string-array>
+    <string name="title_activity_detail">ScrollingActivity</string>
+    <string name="large_text">
+        "Material is the metaphor.\n\n"
+
+        "A material metaphor is the unifying theory of a rationalized space and a system of motion."
+        "The material is grounded in tactile reality, inspired by the study of paper and ink, yet "
+        "technologically advanced and open to imagination and magic.\n"
+        "Surfaces and edges of the material provide visual cues that are grounded in reality. The "
+        "use of familiar tactile attributes helps users quickly understand affordances. Yet the "
+        "flexibility of the material creates new affordances that supercede those in the physical "
+        "world, without breaking the rules of physics.\n"
+        "The fundamentals of light, surface, and movement are key to conveying how objects move, "
+        "interact, and exist in space and in relation to each other. Realistic lighting shows "
+        "seams, divides space, and indicates moving parts.\n\n"
+
+        "Bold, graphic, intentional.\n\n"
+
+        "The foundational elements of print based design typography, grids, space, scale, color, "
+        "and use of imagery guide visual treatments. These elements do far more than please the "
+        "eye. They create hierarchy, meaning, and focus. Deliberate color choices, edge to edge "
+        "imagery, large scale typography, and intentional white space create a bold and graphic "
+        "interface that immerse the user in the experience.\n"
+        "An emphasis on user actions makes core functionality immediately apparent and provides "
+        "waypoints for the user.\n\n"
+
+        "Motion provides meaning.\n\n"
+
+        "Motion respects and reinforces the user as the prime mover. Primary user actions are "
+        "inflection points that initiate motion, transforming the whole design.\n"
+        "All action takes place in a single environment. Objects are presented to the user without "
+        "breaking the continuity of experience even as they transform and reorganize.\n"
+        "Motion is meaningful and appropriate, serving to focus attention and maintain continuity. "
+        "Feedback is subtle yet clear. Transitions are efﬁcient yet coherent.\n\n"
+
+        "3D world.\n\n"
+
+        "The material environment is a 3D space, which means all objects have x, y, and z "
+        "dimensions. The z-axis is perpendicularly aligned to the plane of the display, with the "
+        "positive z-axis extending towards the viewer. Every sheet of material occupies a single "
+        "position along the z-axis and has a standard 1dp thickness.\n"
+        "On the web, the z-axis is used for layering and not for perspective. The 3D world is "
+        "emulated by manipulating the y-axis.\n\n"
+
+        "Light and shadow.\n\n"
+
+        "Within the material environment, virtual lights illuminate the scene. Key lights create "
+        "directional shadows, while ambient light creates soft shadows from all angles.\n"
+        "Shadows in the material environment are cast by these two light sources. In Android "
+        "development, shadows occur when light sources are blocked by sheets of material at "
+        "various positions along the z-axis. On the web, shadows are depicted by manipulating the "
+        "y-axis only. The following example shows the card with a height of 6dp.\n\n"
+
+        "Resting elevation.\n\n"
+
+        "All material objects, regardless of size, have a resting elevation, or default elevation "
+        "that does not change. If an object changes elevation, it should return to its resting "
+        "elevation as soon as possible.\n\n"
+
+        "Component elevations.\n\n"
+
+        "The resting elevation for a component type is consistent across apps (e.g., FAB elevation "
+        "does not vary from 6dp in one app to 16dp in another app).\n"
+        "Components may have different resting elevations across platforms, depending on the depth "
+        "of the environment (e.g., TV has a greater depth than mobile or desktop).\n\n"
+
+        "Responsive elevation and dynamic elevation offsets.\n\n"
+
+        "Some component types have responsive elevation, meaning they change elevation in response "
+        "to user input (e.g., normal, focused, and pressed) or system events. These elevation "
+        "changes are consistently implemented using dynamic elevation offsets.\n"
+        "Dynamic elevation offsets are the goal elevation that a component moves towards, relative "
+        "to the component’s resting state. They ensure that elevation changes are consistent "
+        "across actions and component types. For example, all components that lift on press have "
+        "the same elevation change relative to their resting elevation.\n"
+        "Once the input event is completed or cancelled, the component will return to its resting "
+        "elevation.\n\n"
+
+        "Avoiding elevation interference.\n\n"
+
+        "Components with responsive elevations may encounter other components as they move between "
+        "their resting elevations and dynamic elevation offsets. Because material cannot pass "
+        "through other material, components avoid interfering with one another any number of ways, "
+        "whether on a per component basis or using the entire app layout.\n"
+        "On a component level, components can move or be removed before they cause interference. "
+        "For example, a floating action button (FAB) can disappear or move off screen before a "
+        "user picks up a card, or it can move if a snackbar appears.\n"
+        "On the layout level, design your app layout to minimize opportunities for interference. "
+        "For example, position the FAB to one side of stream of a cards so the FAB won’t interfere "
+        "when a user tries to pick up one of cards.\n\n"
+    </string>
+    <string name="action_settings">Settings</string>
 </resources>
