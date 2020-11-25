@@ -71,7 +71,7 @@ class MainActivity : AppCompatActivity() {
 
     private fun showRecyclerCardView() {
         rv_mydata.layoutManager = LinearLayoutManager(this)
-        val cardViewMyDataAdapter = CardViewMyDataAdapter (list)
+        val cardViewMyDataAdapter = CardViewMyDataAdapter (list, this@MainActivity)
         rv_mydata.adapter = cardViewMyDataAdapter
 
     }
