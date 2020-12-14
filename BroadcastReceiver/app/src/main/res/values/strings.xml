@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Broadcast Receiver</string>
+    <string name="check_sms_permission">CHECK SMS PERMISSION</string>
 </resources>
