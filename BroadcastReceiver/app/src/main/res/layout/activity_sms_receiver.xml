@@ -12,13 +12,14 @@
         android:layout_height="wrap_content"
         android:text="@string/coming_from"
         android:layout_marginBottom="16dp"/>
+
     <TextView
         android:id="@+id/tv_message"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
         android:text="@string/txt_message"
-        android:textSize="18sp"
-        android:layout_marginBottom="16dp"/>
+        android:textSize="18sp" />
 
     <Button
         android:id="@+id/btn_close"
