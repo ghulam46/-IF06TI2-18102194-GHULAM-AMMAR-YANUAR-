@@ -13,6 +13,7 @@
     <string name="setting">SETTING</string>
     <string name="main_title">Dashboard</string>
     <string name="dark_theme">Dark Theme</string>
+    <string name="light_theme">Light Theme</string>
     <string name="yes">Yes</string>
     <string name="no">No</string>
     <string name="save">SIMPAN</string>
