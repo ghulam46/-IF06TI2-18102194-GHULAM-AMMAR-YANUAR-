@@ -21,4 +21,7 @@
     <string name="field_required">Kolom Tidak Boleh Kosong!</string>
     <string name="email_is_not_valid">Email Tidak Valid!</string>
     <string name="field_digit_only">Kolom Hanya Untuk Angka!</string>
+    <string name="hobi">Hobi</string>
+    <string name="alamat">Alamat</string>
+    <string name="default_hobi">hobi</string>
 </resources>
