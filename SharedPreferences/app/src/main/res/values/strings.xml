@@ -12,4 +12,12 @@
     <string name="default_theme">System Default</string>
     <string name="setting">SETTING</string>
     <string name="main_title">Dashboard</string>
+    <string name="dark_theme">Dark Theme</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="save">SIMPAN</string>
+    <string name="setting_page">Setting</string>
+    <string name="field_required">Kolom Tidak Boleh Kosong!</string>
+    <string name="email_is_not_valid">Email Tidak Valid!</string>
+    <string name="field_digit_only">Kolom Hanya Untuk Angka!</string>
 </resources>
