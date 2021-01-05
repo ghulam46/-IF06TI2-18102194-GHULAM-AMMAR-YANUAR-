@@ -2,7 +2,6 @@ package com.ghulam_18102194.praktikum10.db
 
 import android.provider.BaseColumns
 
-class DatabaseContract {
     internal class DatabaseContract {
         internal class QuoteColumns : BaseColumns {
             companion object {
@@ -15,4 +14,3 @@ class DatabaseContract {
             }
         }
     }
-}
