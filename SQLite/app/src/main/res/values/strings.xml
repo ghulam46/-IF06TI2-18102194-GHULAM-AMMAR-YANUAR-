@@ -4,4 +4,6 @@
     <string name="category">Category</string>
     <string name="description">Description</string>
     <string name="date">Date</string>
+    <string name="delete">Detele</string>
+    <string name="submit">Submit</string>
 </resources>

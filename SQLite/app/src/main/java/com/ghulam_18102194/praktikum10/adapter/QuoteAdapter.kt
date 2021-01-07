@@ -1,13 +1,18 @@
 package com.ghulam_18102194.praktikum10.adapter
 
 import android.app.Activity
+import android.content.Intent
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
+import com.ghulam_18102194.praktikum10.QuoteAddUpdateActivity
 import com.ghulam_18102194.praktikum10.R
 import com.ghulam_18102194.praktikum10.data.Quote
 import com.ghulam_18102194.praktikum10.databinding.ItemQuoteBinding
+import com.ghulam_18102194.praktikum10.helper.EXTRA_POSITION
+import com.ghulam_18102194.praktikum10.helper.EXTRA_QUOTE
+import com.ghulam_18102194.praktikum10.helper.REQUEST_UPDATE
 import com.ghulam_18102194.praktikum10.helper.categoryList
 
 class QuoteAdapter(private val activity: Activity):
@@ -31,6 +36,27 @@ class QuoteAdapter(private val activity: Activity):
             binding.tvItemCategory.text = categoryList[quote.category!!.toInt()]
             binding.tvItemDate.text = quote.date
             binding.tvItemDescription.text = quote.description
+
+            binding.cvItemQuote.setOnClickListener{
+                val intent = Intent(activity, QuoteAddUpdateActivity::class.java)
+                intent.putExtra(EXTRA_POSITION, position)
+                intent.putExtra(EXTRA_QUOTE, quote)
+                activity.startActivityForResult(intent, REQUEST_UPDATE)
+            }
         }
+    }
+
+    fun addItem(quote: Quote) {
+        this.listQuotes.add(quote)
+        notifyItemInserted(this.listQuotes.size - 1)
+    }
+    fun updateItem(position: Int, quote: Quote) {
+        this.listQuotes[position] = quote
+        notifyItemChanged(position, quote)
+    }
+    fun removeItem(position: Int) {
+        this.listQuotes.removeAt(position)
+        notifyItemRemoved(position)
+        notifyItemRangeChanged(position, this.listQuotes.size)
     }
 }
