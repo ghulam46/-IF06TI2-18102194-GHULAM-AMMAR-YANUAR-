@@ -11,6 +11,8 @@ import android.provider.BaseColumns
                 const val DESCRIPTION = "description"
                 const val CATEGORY = "category"
                 const val DATE = "date"
+                const val NAME = "name"
+                const val YEAR = "year"
             }
         }
     }

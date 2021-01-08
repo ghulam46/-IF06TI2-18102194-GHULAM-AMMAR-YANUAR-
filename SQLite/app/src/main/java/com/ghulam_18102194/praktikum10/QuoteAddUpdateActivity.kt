@@ -71,6 +71,8 @@ class QuoteAddUpdateActivity : AppCompatActivity(), View.OnClickListener {
             quote?.let {
                 binding.edtTitle.setText(it.title)
                 binding.edtDescription.setText(it.description)
+                binding.edtName.setText(it.name)
+                binding.edtYear.setText(it.year)
                 binding.edtCategory.setSelection(it.category!!.toInt())
             }!!
         } else {
@@ -86,6 +88,8 @@ class QuoteAddUpdateActivity : AppCompatActivity(), View.OnClickListener {
     override fun onClick(view: View) {
         if (view.id == R.id.btn_submit) {
             val title = binding.edtTitle.text.toString().trim()
+            val name = binding.edtName.text.toString().trim()
+            val year = binding.edtYear.text.toString().trim()
             val description = binding.edtDescription.text.toString().trim()
             if (title.isEmpty()) {
                 binding.edtTitle.error = "Field can not be blank"
@@ -93,12 +97,16 @@ class QuoteAddUpdateActivity : AppCompatActivity(), View.OnClickListener {
             }
             quote?.title = title
             quote?.description = description
+            quote?.name = name
+            quote?.year = year
             quote?.category = category
             val intent = Intent()
             intent.putExtra(EXTRA_QUOTE, quote)
             intent.putExtra(EXTRA_POSITION, position)
             val values = ContentValues()
             values.put(DatabaseContract.QuoteColumns.TITLE, title)
+            values.put(DatabaseContract.QuoteColumns.NAME, name)
+            values.put(DatabaseContract.QuoteColumns.YEAR, year)
             values.put(DatabaseContract.QuoteColumns.DESCRIPTION, description)
             values.put(DatabaseContract.QuoteColumns.CATEGORY, category)
             if (isEdit) {

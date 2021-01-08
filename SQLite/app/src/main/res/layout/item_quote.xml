@@ -47,6 +47,26 @@
                 android:textAlignment="center"
                 android:textSize="14sp" />
             <TextView
+                android:id="@+id/tv_item_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:gravity="start"
+                android:text="@string/name"
+                android:textAlignment="center"
+                android:textSize="14sp" />
+            <TextView
+                android:id="@+id/tv_item_year"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:gravity="start"
+                android:text="@string/year"
+                android:textAlignment="center"
+                android:textSize="14sp" />
+            <TextView
                 android:id="@+id/tv_item_date"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"

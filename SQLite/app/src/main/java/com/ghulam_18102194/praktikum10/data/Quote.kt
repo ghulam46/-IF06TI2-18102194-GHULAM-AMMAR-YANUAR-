@@ -9,5 +9,7 @@ import kotlinx.android.parcel.Parcelize
         var title: String? = null,
         var description: String? = null,
         var category: String? = null,
-        var date: String? = null
+        var date: String? = null,
+        var name: String? = null,
+        var year: String? = null
     ) : Parcelable
