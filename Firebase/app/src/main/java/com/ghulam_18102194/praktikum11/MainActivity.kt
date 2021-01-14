@@ -7,6 +7,8 @@ import android.text.TextUtils
 import android.view.View
 import android.widget.Toast
 import androidx.core.view.isVisible
+import com.bumptech.glide.Glide
+import com.bumptech.glide.request.RequestOptions
 import com.ghulam_18102194.praktikum11.databinding.ActivityMainBinding
 import com.google.android.gms.auth.api.signin.GoogleSignIn
 import com.google.android.gms.auth.api.signin.GoogleSignInClient
@@ -43,6 +45,8 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         else{
             updateUI(currentUser)
         }
+
+
 
     }
     public override fun onStart() {
@@ -104,10 +108,18 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
             val emailVerified = currentUser.isEmailVerified
             val uid = currentUser.uid
             binding.tvName.text = name
+
+
             if(TextUtils.isEmpty(name)){
                 binding.tvName.text = "No Name"
             }
             binding.tvUserId.text = email
+
+            Glide.with(this)
+                .load(photoUrl.toString())
+                .apply(RequestOptions().override(100, 100))
+                .into(binding.ivImage)
+
             for (profile in it.providerData) {
                 val providerId = profile.providerId
                 if(providerId=="password" && emailVerified==true){
@@ -120,5 +132,6 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
             }
         }
     }
+
 
 }
