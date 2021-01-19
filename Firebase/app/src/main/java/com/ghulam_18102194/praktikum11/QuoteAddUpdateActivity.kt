@@ -1,12 +1,15 @@
 package com.ghulam_18102194.praktikum11
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
 import android.view.Menu
 import android.view.MenuItem
 import android.view.View
 import android.widget.AdapterView
 import android.widget.ArrayAdapter
+import android.widget.Toast
 import androidx.appcompat.app.AlertDialog
 import com.ghulam_18102194.praktikum11.data.Quote
 import com.ghulam_18102194.praktikum11.databinding.ActivityQuoteAddUpdateBinding
@@ -14,9 +17,21 @@ import com.ghulam_18102194.praktikum11.helper.ALERT_DIALOG_CLOSE
 import com.ghulam_18102194.praktikum11.helper.ALERT_DIALOG_DELETE
 import com.ghulam_18102194.praktikum11.helper.EXTRA_POSITION
 import com.ghulam_18102194.praktikum11.helper.EXTRA_QUOTE
+import com.ghulam_18102194.praktikum11.helper.RESULT_ADD
+import com.ghulam_18102194.praktikum11.helper.RESULT_DELETE
+import com.ghulam_18102194.praktikum11.helper.RESULT_UPDATE
+import com.google.firebase.auth.FirebaseAuth
+import com.google.firebase.auth.ktx.auth
+import com.google.firebase.firestore.FieldValue
+import com.google.firebase.firestore.FirebaseFirestore
+import com.google.firebase.firestore.ktx.firestore
+import com.google.firebase.ktx.Firebase
 import kotlinx.android.synthetic.main.activity_dashboard_quote.*
 
 class QuoteAddUpdateActivity : AppCompatActivity(), View.OnClickListener {
+    private lateinit var auth: FirebaseAuth
+    private lateinit var firestore: FirebaseFirestore
+
     private var isEdit = false
     private var categoriesSpinnerArray = ArrayList<String>()
     private var quote: Quote? = null
@@ -28,6 +43,8 @@ class QuoteAddUpdateActivity : AppCompatActivity(), View.OnClickListener {
         super.onCreate(savedInstanceState)
         binding = ActivityQuoteAddUpdateBinding.inflate(layoutInflater)
         setContentView(binding.root)
+        firestore = Firebase.firestore
+        auth = Firebase.auth
         categoriesSpinnerArray = getCategories()
         quote = intent.getParcelableExtra(EXTRA_QUOTE)
         if (quote != null) {
@@ -59,6 +76,26 @@ class QuoteAddUpdateActivity : AppCompatActivity(), View.OnClickListener {
 
     private fun getCategories(): ArrayList<String> {
         progressbar.visibility = View.VISIBLE
+        firestore.collection("categories")
+            .whereEqualTo("is_active", true)
+            .get()
+            .addOnSuccessListener { documents ->
+                var selection = 0;
+                for (document in documents) {
+                    val name = document.get("name").toString()
+                    quote?.let {
+                        if(name==it.category){
+                            categorySelection = selection
+                        }
+                    }
+                    categoriesSpinnerArray.add(name)
+                    selection++
+                }
+                setCategories(categoriesSpinnerArray)
+            }
+            .addOnFailureListener { exception ->
+                Toast.makeText(this@QuoteAddUpdateActivity, "Categories cannot be retrieved ", Toast.LENGTH_SHORT).show()
+            }
         return categoriesSpinnerArray
     }
 
@@ -88,9 +125,43 @@ class QuoteAddUpdateActivity : AppCompatActivity(), View.OnClickListener {
                 return
             }
             if (isEdit) {
-
+                val currentUser = auth.currentUser
+                val user = hashMapOf(
+                        "uid" to currentUser?.uid,
+                        "title" to title,
+                        "description" to description,
+                        "category" to categoryName,
+                        "date" to FieldValue.serverTimestamp()
+                )
+                firestore.collection("quotes").document(quote?.id.toString())
+                        .set(user)
+                        .addOnSuccessListener {
+                            setResult(RESULT_UPDATE, intent)
+                            finish()
+                        }
+                        .addOnFailureListener { e ->
+                            Toast.makeText(this@QuoteAddUpdateActivity, "Gagal mengupdate data", Toast.LENGTH_SHORT).show()
+                        }
             } else {
-
+                val currentUser = auth.currentUser
+                val user = hashMapOf(
+                    "uid" to currentUser?.uid,
+                    "title" to title,
+                    "description" to description,
+                    "category" to categoryName,
+                    "date" to FieldValue.serverTimestamp()
+                )
+                firestore.collection("quotes")
+                    .add(user)
+                    .addOnSuccessListener { documentReference ->
+                        Toast.makeText(this@QuoteAddUpdateActivity, "DocumentSnapshot added with ID: ${documentReference.id}",
+                            Toast.LENGTH_SHORT).show()
+                        setResult(RESULT_ADD, intent)
+                        finish()
+                    }
+                    .addOnFailureListener { e ->
+                        Toast.makeText(this@QuoteAddUpdateActivity, "Error adding document", Toast.LENGTH_SHORT).show()
+                    }
             }
         }
     }
@@ -131,6 +202,19 @@ class QuoteAddUpdateActivity : AppCompatActivity(), View.OnClickListener {
                 if (isDialogClose) {
                     finish()
                 } else {
+                    firestore.collection("quotes").document(quote?.id.toString())
+                            .delete()
+                            .addOnSuccessListener {
+                                Log.d("delete", "DocumentSnapshot successfully deleted!"+quote?.id.toString())
+                                        val intent = Intent()
+                                intent.putExtra(EXTRA_POSITION, position)
+                                setResult(RESULT_DELETE, intent)
+                                finish()
+                            }
+                            .addOnFailureListener { e ->
+                                Log.w("a", "Error deleting document", e)
+                                Toast.makeText(this@QuoteAddUpdateActivity, "Gagal menghapus data", Toast.LENGTH_SHORT).show()
+                            }
 
                 }
             }

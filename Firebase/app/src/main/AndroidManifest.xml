@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Firebase">
-        <activity android:name=".QuoteAddUpdateActivity"></activity>
+        <activity android:name=".PhoneAuthActivity"></activity>
+        <activity android:name=".QuoteAddUpdateActivity" />
         <activity android:name=".DashboardQuoteActivity" />
         <activity android:name=".SignUpActivity" />
         <activity android:name=".SignInActivity" />

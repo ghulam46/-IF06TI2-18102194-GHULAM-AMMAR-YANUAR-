@@ -35,6 +35,8 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         binding.btnSignOut.setOnClickListener(this)
         binding.btnEmailVerify.setOnClickListener(this)
 
+        binding.btnDasboardQuote.setOnClickListener(this)
+
         val currentUser = auth.currentUser
         if (currentUser == null) {
             val intent = Intent(this@MainActivity, SignInActivity::class.java)
@@ -66,6 +68,10 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
             }
             R.id.btnEmailVerify -> {
                 sendEmailVerification()
+            }
+            R.id.btnDasboardQuote -> {
+                val intent = Intent(this@MainActivity, DashboardQuoteActivity::class.java)
+                startActivity(intent)
             }
         }
     }
