@@ -3,23 +3,23 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@+id/navigation_home">
+    app:startDestination="@+id/navigation_my_quotes">
 
     <fragment
-        android:id="@+id/navigation_home"
-        android:name="com.ghulam_18102194.praktikum14.ui.home.HomeFragment"
-        android:label="@string/title_home"
-        tools:layout="@layout/fragment_home" />
+        android:id="@+id/navigation_my_quotes"
+        android:name="com.ghulam_18102194.praktikum14.ui.myquotes.MyQuotesFragment"
+        android:label="@string/title_my_quotes"
+        tools:layout="@layout/fragment_my_quotes" />
 
     <fragment
-        android:id="@+id/navigation_dashboard"
-        android:name="com.ghulam_18102194.praktikum14.ui.dashboard.DashboardFragment"
-        android:label="@string/title_dashboard"
-        tools:layout="@layout/fragment_dashboard" />
+        android:id="@+id/navigation_class_quotes"
+        android:name="com.ghulam_18102194.praktikum14.ui.classquotes.ClassQuotesFragment"
+        android:label="@string/title_class_quotes"
+        tools:layout="@layout/fragment_class_quotes" />
 
     <fragment
-        android:id="@+id/navigation_notifications"
-        android:name="com.ghulam_18102194.praktikum14.ui.notifications.NotificationsFragment"
-        android:label="@string/title_notifications"
-        tools:layout="@layout/fragment_notifications" />
+        android:id="@+id/navigation_global_quotes"
+        android:name="com.ghulam_18102194.praktikum14.ui.globalquotes.GlobalQuotesFragment"
+        android:label="@string/title_global_quotes"
+        tools:layout="@layout/fragment_global_quotes" />
 </navigation>

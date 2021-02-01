@@ -1,4 +1,4 @@
-package com.ghulam_18102194.praktikum14.ui.dashboard
+package com.ghulam_18102194.praktikum14.ui.myquotes
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -10,20 +10,20 @@ import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import com.ghulam_18102194.praktikum14.R
 
-class DashboardFragment : Fragment() {
+class MyQuotesFragment : Fragment() {
 
-    private lateinit var dashboardViewModel: DashboardViewModel
+    private lateinit var homeViewModel: HomeViewModel
 
     override fun onCreateView(
             inflater: LayoutInflater,
             container: ViewGroup?,
             savedInstanceState: Bundle?
     ): View? {
-        dashboardViewModel =
-                ViewModelProvider(this).get(DashboardViewModel::class.java)
-        val root = inflater.inflate(R.layout.fragment_dashboard, container, false)
-        val textView: TextView = root.findViewById(R.id.text_dashboard)
-        dashboardViewModel.text.observe(viewLifecycleOwner, Observer {
+        homeViewModel =
+                ViewModelProvider(this).get(HomeViewModel::class.java)
+        val root = inflater.inflate(R.layout.fragment_my_quotes, container, false)
+        val textView: TextView = root.findViewById(R.id.text_home)
+        homeViewModel.text.observe(viewLifecycleOwner, Observer {
             textView.text = it
         })
         return root

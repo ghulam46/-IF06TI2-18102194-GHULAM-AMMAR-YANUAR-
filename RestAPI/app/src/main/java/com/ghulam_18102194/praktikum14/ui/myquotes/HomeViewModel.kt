@@ -1,4 +1,4 @@
-package com.ghulam_18102194.praktikum14.ui.home
+package com.ghulam_18102194.praktikum14.ui.myquotes
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData

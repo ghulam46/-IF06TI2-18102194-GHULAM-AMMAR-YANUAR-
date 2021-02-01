@@ -1,4 +1,4 @@
-package com.ghulam_18102194.praktikum14.ui.notifications
+package com.ghulam_18102194.praktikum14.ui.globalquotes
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -10,7 +10,7 @@ import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import com.ghulam_18102194.praktikum14.R
 
-class NotificationsFragment : Fragment() {
+class GlobalQuotesFragment : Fragment() {
 
     private lateinit var notificationsViewModel: NotificationsViewModel
 
@@ -21,7 +21,7 @@ class NotificationsFragment : Fragment() {
     ): View? {
         notificationsViewModel =
                 ViewModelProvider(this).get(NotificationsViewModel::class.java)
-        val root = inflater.inflate(R.layout.fragment_notifications, container, false)
+        val root = inflater.inflate(R.layout.fragment_global_quotes, container, false)
         val textView: TextView = root.findViewById(R.id.text_notifications)
         notificationsViewModel.text.observe(viewLifecycleOwner, Observer {
             textView.text = it
