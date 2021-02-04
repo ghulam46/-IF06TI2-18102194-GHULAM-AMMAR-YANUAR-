@@ -72,7 +72,12 @@ class QuoteAddUpdateActivity : AppCompatActivity(), View.OnClickListener, MainVi
                 return
             }
             if (isEdit) {
-
+                presenter.updateQuote(
+                    token.token.toString(),
+                    quote!!.quote_id.toString(),
+                    binding.edtTitle.text.toString(),
+                    binding.edtDescription.text.toString()
+                )
             } else {
                 presenter.addQuote(
                     token.token.toString(),
@@ -118,7 +123,7 @@ class QuoteAddUpdateActivity : AppCompatActivity(), View.OnClickListener, MainVi
                 if (isDialogClose) {
                     finish()
                 } else {
-
+                    presenter.deleteQuote(token.token.toString(),quote?.quote_id.toString())
                 }
             }
             .setNegativeButton("Tidak") { dialog, _ -> dialog.cancel() }
