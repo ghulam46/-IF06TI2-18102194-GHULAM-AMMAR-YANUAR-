@@ -7,4 +7,10 @@
     <string name="title_class_quotes">Class Quotes</string>
     <string name="title_global_quotes">Global Quotes</string>
     <string name="logout">Logout</string>
+    <string name="title">Title</string>
+    <string name="description">Description</string>
+    <string name="owner">Owner</string>
+    <string name="date">Date</string>
+    <string name="delete">Delete\\</string>
+    <string name="submit">Submit</string>
 </resources>
