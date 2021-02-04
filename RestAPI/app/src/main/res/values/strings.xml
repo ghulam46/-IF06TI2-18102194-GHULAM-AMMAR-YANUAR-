@@ -6,4 +6,5 @@
     <string name="title_my_quotes">My Quotes</string>
     <string name="title_class_quotes">Class Quotes</string>
     <string name="title_global_quotes">Global Quotes</string>
+    <string name="logout">Logout</string>
 </resources>
